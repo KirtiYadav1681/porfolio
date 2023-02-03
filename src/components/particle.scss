@@ -1,0 +1,17 @@
+.particle{
+    width: 100%;
+
+    @media screen and (max-width:800px) {
+        width: 80vw;
+    }
+
+    @media screen and (max-width:565px) {
+        width: 30vw;
+    }
+    @media screen and (max-width:400px) {
+        width: 20vw;
+    }
+    @media screen and (max-width:350px) {
+        width: 10vw;
+    }
+}
